@@ -8,8 +8,7 @@ body{
     background-color: black;
     margin: 0;
     font-family: 'Cantarell', sans-serif;
-    min-width: 925px;
-    min-height: 100%;
+    min-width: 320px;
 }
 h1{
     margin: 0;
@@ -136,4 +135,79 @@ main div>img{
 }
 li{
     list-style: none;
+}
+@media (max-width: 770px){
+    h1{
+        padding-left: 20px;
+        font-size: 30px;
+    }
+    .sensation-nav a{
+        font-size: 20px;
+    }
+    main-headings{
+        display: block;
+    }
+    .main-columns{
+        display: block;
+    }
+    .column-left{
+        width: 100%;
+    }
+    .column-right{
+        border: none;
+        padding: 10px;
+        width: 100%;
+    }
+    h2{
+        width: 100%;
+        padding-top: 2px;
+        font-size: 15px;
+    }
+    h3{
+        display: none;
+        padding-top: 2px;
+        font-size: 15px;
+    }
+    h4{
+        padding-top: 2px;
+        font-size: 15px;
+    }
+    .main-wrapper dt{
+        font-size: 15px;
+    }
+    .main-wrapper dd{
+        font-size: 12px;
+    }
+}
+@media (max-width: 600px){
+    .sensation-nav a{
+        font-size: 15px;
+    }
+    h2{
+        padding-top: 2px;
+        font-size: 12px;
+    }
+    h3{
+        padding-top: 2px;
+        font-size: 12px;
+    }
+    h4{
+        padding-top: 2px;
+        font-size: 12px;
+    }
+    .main-wrapper dt{
+        font-size: 12px;
+    }
+    .main-wrapper dd{
+        font-size: 10px;
+    }
+}
+@media (max-width: 490px){
+    h1{
+        padding-left: 10px;
+        font-size: 20px;
+    }
+    .sensation-nav a{
+        font-size: 12px;
+    }
 }
