@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+html{
+  height: 100%;
+}
+body{
+    background-color: black;
+    margin: 0;
+    font-family: 'Cantarell', sans-serif;
+    min-width: 925px;
+    min-height: 100%;
+}
+h1{
+    margin: 0;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 50px;
+    font-family: 'Audiowide', cursive;
+    color: aliceblue;
+    background-color: black;
+}
+.sensation-nav{
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Audiowide', cursive;
+}
+.sensation-nav a{
+    display: flex;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.sensation-nav a span{
+    display: block;
+    width: 100%;
+}
+main>div{
+    display: none;
+}
+.main-headings{
+    display: flex;
+}
+h2{
+    width: 60%;
+    margin: 0;
+    padding-left: 10px;
+    color: crimson;
+    font-size: 20px;
+    background-color: white;
+}
+h3{
+    width: 40%;
+    margin: 0;
+    padding-left: 10px;
+    color: crimson;
+    font-size: 20px;
+    background-color: white;
+    border-left: solid crimson 1px;
+}
+h4{
+    margin: 0;
+    padding-left: 10px;
+}
+.touch .main-touch, 
+.hearing .main-hearing, 
+.sight .main-sight,
+.smell .main-smell,
+.taste .main-taste{
+    display: block;
+}
+.touch .touch-button, 
+.hearing .hearing-button, 
+.sight .sight-button,
+.smell .smell-button,
+.taste .taste-button{
+    background-color: crimson;
+}
+.touch .welcome-page,
+.hearing .welcome-page,
+.sight .welcome-page,
+.smell .welcome-page,
+.taste .welcome-page{
+    display: none;
+}
+.welcome-page{
+    font-size: 20px;
+    text-align: justify;
+    padding-left: 30px;
+    color: aliceblue;
+}
+main div>img{
+    width: 100%;
+}
+.main-wrapper{
+    width: 100%;
+    height: 100%;
+}
+.main-columns{
+    display: flex;
+}
+.column-left{
+    width: 60%;
+    align-items: stretch;
+}
+.column-right{
+    width: 40%;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-left: solid crimson 1px;
+}
+.main-wrapper{
+    color: white;
+}
+.main-wrapper ol{
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.main-wrapper dt{
+    font-size: 18px;
+    margin: 0;
+}
+.main-wrapper dd{
+    font-size: 14px;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
